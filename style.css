@@ -1,0 +1,32 @@
+.btns {
+    padding: 8px 25px;
+    background: rgb(230,92,0);
+    background: linear-gradient(180deg, rgba(230,92,0,1) 0%, rgba(230,92,0,1) 25%, rgba(249,212,35,1) 100%);
+    width: 120px;
+    border: none;
+    color: #fff;
+}
+.heading{
+    font-weight: 700;
+    font-size: 40px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.mohib{
+    background: rgb(0,210,255);
+    background: linear-gradient(146deg, rgba(0,210,255,1) 0%, rgba(0,210,255,1) 25%, rgba(58,123,213,1) 100%);
+    width: 120px;
+}
+img {
+    object-fit: contain;
+}
+@media only screen and (max-width:786px) {
+.reverse{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
